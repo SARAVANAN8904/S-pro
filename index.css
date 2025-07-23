@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #EEEDEB;
+}
+/* .main-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;  
+    color: #;
+}   */
+.card1-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 6px;
+    position: relative;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 2.6%;
+}
+.b-name{
+    font-size: 30px;
+    color:#091057 ;
+}
+.search{
+    padding: 3px;
+    font-size: 20px;
+    width: auto; height: 40px;
+    border-radius: 4px;  
+    border: none;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    font-weight: lighter;
+    outline: none;
+}
+.ic{
+    position: absolute;
+    left: 41%;
+    cursor: pointer;
+    width: auto;height: 30px;
+    padding: 5px;
+}
+.ic:hover{
+    background-color: #FCF8F3;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    
+
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+    padding: 8px;
+    font-weight: 400;
+}
+a:hover{
+    background-color:#FCF8F3;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+.icons{
+    padding: 7px;
+}
+.icons:hover{
+    background-color: #FCF8F3;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+
+}
+.main{
+    padding: 10px;
+    margin-top: 2%;
+    height: 100%; width: 100%;
+    display: flex;
+    gap: 10px;
+    border: solid 1px black;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.card-1{
+    width: 50%;
+    /* background-color: pink; */
+}
+.img{
+    margin-left: 5vw;
+}
+.card-2{    
+    width: 50%;
+    /* background-color: violet; */
+    
+}
+.card2-1{
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+}
+.card2-1 .text{
+    font-size: 30px;
+    font-weight: 300;
+}
+ .checked{
+    color: yellow;
+}
+.rating {
+    border-radius: 3px;
+    padding: 5px;   
+    margin-top: 1%;
+    display: flex;
+    width: 24%;
+    align-items: center;
+    border:  solid 1px ;
+    position: relative;
+    gap: 10px;
+}
+.v{
+    right: 1%;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* --------------------------------- */
+.rating-div{
+    border: 1px solid ;
+    /* padding: 10px; */
+    width: 51%;
+    position: relative;
+}
+.main{
+    border: 0;
+}
+.rating-div span{
+    margin-left: 10px;
+}
+.rating-div .main{
+    display: flex;
+    justify-content: space-between;
+}
+.delete{
+    right: 0%;
+    position: absolute;
+    border: solid 1px ;
+    padding:3px;
+    font-size: 20px;
+}
+.discount{
+    display: inline-flex;
+    color: white;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-weight: 500;
+    background-color:#D91656;
+}
+.price{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 15px;
+    gap: 4px;
+
+}
+.price-1{
+    text-indent: 3px;
+    letter-spacing: 3px;
+    color: rgb(247, 44, 44);
+    font-size: 25px;
+    font-weight: 200;
+}
+.price-2{
+    font-size: 27px;
+    font-weight: 400;
+}
+.line2{
+    font-size: 20px;
+}
+.cart{
+        padding: 10px 20px;
+        border-radius: 4px;
+        border:none;
+        font-size: 19px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.btn{
+    display:flex;
+    align-items:center;
+    justify-content:start;
+    gap: 25px;
+}
+.buy{
+    padding: 10px 25px;
+    border-radius: 4px;  
+    border:none;  
+    font-size: 19px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.buy:hover{
+    cursor: pointer;
+    background-color:#FF77B7 ;
+    color: #ffff;
+    border: none;
+}
+.cart:hover{
+    cursor: pointer;
+    background-color:#FF77B7;
+    color: #ffff;
+    border-color:#FF77B7;
+}
+.main-card{
+    display:flex;
+    align-items:center;
+    justify-content:start;
+    gap:20px;
+    
+}
+.sub-card{
+     height:153.7px;
+    border:solid 2px;
+    border-radius:3px;
+    border-color:#FF77B7;
+}
+.imgs{
+    width: 150px;height:150px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius:2px;
+}
+
+
+
+
+
